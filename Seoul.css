@@ -1,0 +1,84 @@
+.menu{
+    margin: 3px;
+    display: block;
+    height: 70px;
+    display: flex;
+   background-color: rgb(220, 220, 189);
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    margin: 40px;
+}
+.menu :hover{
+color: black;
+}
+.menu a{
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+
+}
+.t{
+background-color:beige;
+ }
+
+
+.titre{
+    margin-left:600px ;
+    margin-top: 150px;
+    text-align: center;
+    background-color:rgb(220, 220, 189);
+    width: 200px;
+    height: 40px;
+    margin-bottom: 3px;
+}
+.text{
+    background-color: rgb(220, 220, 189) ;
+     width: auto;
+    height: 200px;
+
+}
+.milieu{
+    height: 500px;
+    margin-top: 50px;
+    background-color: beige;
+}
+#vid1,#vid2,#img{
+    display: inline-block;
+    height: inherit;
+}
+#vid1{
+    width: 20%;
+    background-color: brown;
+    float: right;
+}
+
+#vid2{
+    width: 20%;
+background-color: orange;
+    float: left;
+ margin-right: 7px;
+}
+#img{
+    width: 40%;
+    background-image: url(IMG_2735.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 150px ;
+    margin-right: 1px;
+}
+h2{ 
+    color: rgb(68, 64, 64);
+    font-family: 'cookie', cursive
+    
+}
+.hongai{
+    
+    margin-left: 200px;
+}

@@ -1,0 +1,69 @@
+.menu{
+    margin: 3px;
+    display: block;
+    height: 70px;
+    display: flex;
+   background-color: rgb(241, 214, 219);
+}
+.menu :hover{
+color: black;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    margin: 40px;
+}
+.fond{
+    background-color: pink;
+}
+.menu a{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+
+}
+.tof{
+    
+    height: 300px;
+        width: 500px;
+        background-image: url(losangel.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 360px;
+        margin-bottom: 100px;
+}
+.center{
+    margin-top: 150px;
+    text-align: center
+}
+.droit{
+    text-align: center; 
+    margin-top: 50px;
+}
+.droi{
+    text-align: center; 
+    margin-top: 100px;
+}
+#rond{
+    border-radius: 100px;
+}
+#ron{
+    border-radius: 200px;
+    border-radius: 50%;
+
+}
+.gauche{
+    float: right;
+}
+.droite{
+    float: left;
+}
+h2{ 
+    color: rgb(41, 9, 9);
+    font-family: 'cookie', cursive
+    
+}

@@ -1,0 +1,86 @@
+.menu{
+    margin: 3px;
+    display: block;
+    height: 70px;
+    display: flex;
+   background-color:rgb(224, 221, 255);
+}
+.menu :hover{
+color: black;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    margin: 40px;
+}
+.menu a{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+
+}
+
+.tof{
+    
+    height: 300px;
+        width: 500px;
+        background-image: url(dubaii.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 400px;
+        margin-bottom: 100px;
+}
+.center{
+    margin-top: 150px;
+    text-align: center
+}
+.d{
+    font-family: 'cookie', cursive
+
+}
+.fond{
+    background-color: rgb(168, 165, 228);
+}
+.rond{
+    border-radius: 100px;
+    border-radius: 50%;
+}
+.ron{
+    border-radius: 200px;
+
+}
+#text{
+    margin-top: 150px;
+    float: left;
+}
+#gim{
+    float: right;
+}
+#img{
+    float: left;
+    margin-bottom: 200px;
+    }
+#texte{
+    float: right;
+    margin-top: 2000px;
+}
+#hi{
+    float: left; 
+}
+.form{
+    border-radius: 100px;
+    border-radius: 50%;
+    margin-bottom: 500px;
+}
+#id{
+    float: right;
+}
+h2{ 
+    color: rgb(41, 9, 9);
+    font-family: 'cookie', cursive
+    
+}

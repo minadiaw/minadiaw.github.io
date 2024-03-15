@@ -1,0 +1,77 @@
+.menu{
+    margin: 3px;
+    display: block;
+    height: 70px;
+    display: flex;
+   background-color:antiquewhite;
+}
+.menu :hover{
+color: black;
+}
+.menu a{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+
+}
+.la{
+  margin-left: 300px;
+}
+.tof{
+    
+    height: 300px;
+        width: 500px;
+        background-image: url(singapour.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 500px;
+        margin-bottom: 100px;
+}
+.center{
+    margin-top: 150px;
+    text-align: center
+}
+.mina{
+    margin-top: 50px;
+    
+}
+.img{
+    margin-left: 370px;
+    border-radius: 150px;
+    border-radius:50% ;
+}
+#gauche{
+    float: left;
+    margin-right: 50px;
+}
+#droite{
+    float: right;
+}
+.y{
+    border-radius: 50%;
+    border-radius: 100px;
+}
+#fond{
+    background-color: rgb(172, 139, 96)
+}
+hr{
+    border-color: black;
+}
+MARquee{
+    display: inline-block;
+}
+
+  h2{ 
+    color: rgb(41, 9, 9);
+    font-family: 'cookie', cursive
+    
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    margin: 40px;
+}

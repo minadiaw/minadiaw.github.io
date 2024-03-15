@@ -1,0 +1,77 @@
+.menu{
+    margin: 3px;
+    display: block;
+    height: 70px;
+    display: flex;
+   background-color:beige;
+}
+.menu :hover{
+color: black;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    margin: 40px;
+}
+.menu a{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+
+}
+.fond{
+    background-color: rgb(245, 238, 183);
+}
+.tof{
+    
+    height: 300px;
+        width: 500px;
+        background-image: url(coliserome.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 350px;
+        margin-bottom: 100px;
+}
+.center{
+    margin-top: 150px;
+    text-align: center
+}
+.gauche{
+    float: left;
+    margin-bottom: 100px;
+
+}
+.droite{
+    float: right;
+    margin-top: 150px;
+
+}
+#cercle{
+    border-radius: 150px;
+
+}
+.gauch{
+    float: left;
+
+}
+.droit{
+    float: right;
+}
+.droi{
+    float: left;
+}
+.guau{
+    float: right;
+}
+#circle{
+    border-radius: 200px;
+}
+h2{ 
+    color: rgb(41, 9, 9);
+    font-family: 'cookie', cursive
+    
+}

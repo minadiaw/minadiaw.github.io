@@ -1,0 +1,86 @@
+.menu{
+    margin: 3px;
+    display: block;
+    height: 70px;
+    display: flex;
+   background-color: rgb(180, 226, 245);
+}
+.menu :hover{
+color: black;
+}
+.menu a{
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:  url(airplane.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.contenu{
+    width: 70%;
+    margin: 50px auto 0;
+    padding: 20px;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px  rgb(113, 113, 245);
+    margin-top: 10px;
+}
+form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    
+}
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(192, 50, 50);
+    margin-top: 5px;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(196, 56, 56);
+    margin-top: 5px;
+}
+
+.destination{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(192, 50, 50);
+    margin-top: 5px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:  rgb(113, 113, 245);
+}

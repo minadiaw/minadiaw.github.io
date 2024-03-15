@@ -1,0 +1,277 @@
+.color{
+    background-color: #eaa4a4;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+.le_haut{
+    display: block;
+    height: 300px;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url("vol.jpg");
+}
+h2{
+    color: azure;
+}
+.menu{
+    margin: 1px;
+    display: inline-block;
+    height: 70px;
+    display: flex;
+    background-image: url(j.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu :hover{
+color: crimson;
+}
+.menu a{
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+
+}
+hr{
+    border-color: black;
+}
+MARquee{
+    display: inline-block;
+}
+.villes{
+    height: 450px;
+    margin-top: 15px;
+    margin-bottom: 15px ;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #eaa4a4;
+    background-size: cover;
+background-repeat: no-repeat;
+}
+.one{
+    height: 225px;
+    margin-top: 3px;
+    margin-bottom: 8px ;
+    
+}
+#Séoul,#Dubai,#Rome{
+    display: inline-block;
+    height: inherit;
+}
+#Séoul{
+    width: 30%;
+    background-image: url(romeee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+ margin-right: 7px;
+
+ 
+}
+
+#Dubai{
+    width: 30%;
+    background-image: url(lesou.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; 
+    margin-left: 7px;
+
+    
+ 
+}
+#Rome{
+    width: 30%;
+    background-image: url(baibai.jpg);
+      background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 60px ;
+    margin-right: 5px;
+}
+
+.two{
+    height: 225px;
+    margin-top: 3px;
+    margin-bottom: 3px ;
+    background-image: url(fond.jpg); 
+    background-size: cover;
+background-repeat: no-repeat;
+}
+#Los_Angeles,#Singapour,#Berne{
+    display: inline-block;
+    height: inherit;
+}
+#Los_Angeles{
+    width: 30%;
+    float: right;
+ margin-right: 7px;
+}
+#Singapour{
+    width: 30%;
+    background-image: url(angel.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    float: left; 
+    margin-left: 7px;
+}
+#Berne{
+    width: 30%;
+    background-image: url(cover-r4x3w1200-5c80e1c4a5054-1.jpg); 
+     background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 60px ;
+    margin-right: 5px;
+}
+.content{
+    border-radius: 400px;
+    width:20%;
+    height:20%;
+    top: 430px;
+    left: 100px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity: 1;
+
+}
+h1{
+    color:crimson;
+}
+.mero{
+    border-radius: 400px;
+    width:20%;
+    height:20%;
+    top: 430px;                                                         
+    left: 490px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.mero:hover{
+    opacity: 1;
+
+}
+.baidou{
+    border-radius: 100px;
+    width:20%;
+    height:20%;
+    top: 430px;
+    left: 900px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.baidou:hover{
+    opacity: 1;
+
+}
+.angel{
+    border-radius: 400px;
+    width:20%;
+    height:20%;
+    top: 660px;
+    left: 100px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.angel:hover{
+    opacity: 1;
+
+}
+.gapour{
+    border-radius: 400px;
+    width:20%;
+    height:20%;
+    top: 660px;
+    left: 500px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.gapour:hover{
+    opacity: 1;
+
+}
+
+
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* button styling */
+  .button {
+     margin-top: 100px;
+     margin-left: 90px;
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #ff3737;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+  h0{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+  }
+
